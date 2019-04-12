@@ -1,1 +1,2 @@
-export default {}
+import api from './api';
+export default {api};

@@ -13,7 +13,7 @@ class TitlePanel extends React.Component {
     const { title } = this.props;
     return (
       <h1 style={{ textAlign: 'center' }}>
-        {title || 'Welcome to Webcodesk!'}
+        {title || 'Empty Title'}
       </h1>
     );
   }
